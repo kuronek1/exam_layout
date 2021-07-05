@@ -1,29 +1,28 @@
 * {
-    margin: 0;
-    padding: 0;
-
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     width: 100vw;
     height: 100vh;
-    background-color: aqua;
 }
 
 .logonav {
     display: flex;
-    margin: 0 50px;
     justify-content: space-between;
     align-items: center;
 
-    position: absolute;
+    margin: 0 50px;
+}
 
-    top: 0;
-    left: 0;
-    right: 0;
+.foodapp {
+    text-align: center;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
 }
