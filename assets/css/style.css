@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
@@ -9,7 +8,7 @@ body {
 }
 
 header {
-    width: 100vw;
+
     height: 100vh;
 }
 
@@ -22,7 +21,60 @@ header {
 }
 
 .foodapp {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
     text-align: center;
     background-image: url(../images/background.png);
     background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
+.label {
+    margin-top: 50px;
+}
+
+.label, .foodapp_download {
+    font-size: 25px;
+}
+
+.foodapp_text {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.foodapp_download {
+    margin-bottom: 20px;
+}
+
+.playstore, .app_store {
+    margin: 0 20px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 30px;
+    color: white;
+    transition: 1s;
+}
+
+.playstore {
+    border: 1px solid orangered;
+    background: orangered;
+}
+.app_store {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.playstore:hover {
+    background: white;
+    color: orangered;
+    transform: 1s;
+}
+
+.app_store:hover {
+    background-color: orangered;
+    transform: 1s;
 }
