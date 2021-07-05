@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-size: 20px;
 }
 
 body {
@@ -49,14 +50,18 @@ header {
     margin-bottom: 20px;
 }
 
+.button_foodapp {
+    z-index: 10;
+}
+
 .playstore, .app_store {
     margin: 0 20px;
-    font-size: 15px;
     font-weight: bold;
     padding: 15px 20px;
     border-radius: 30px;
     color: white;
     transition: 1s;
+
 }
 
 .playstore {
@@ -77,4 +82,72 @@ header {
 .app_store:hover {
     background-color: orangered;
     transform: 1s;
+}
+
+
+
+
+
+main {
+    text-align: center;
+    position: relative;
+}
+
+.phones_images {
+
+margin-top: -250px;
+}
+
+.phones_images::after {
+    display: block;
+    height: 2px;
+
+    position: absolute;
+    left: 100px;
+    right: 100px;
+
+    margin-top: -50px;
+
+    content: " ";
+    background-color: gray;
+}
+
+.app_work {
+    margin: 0 10%;
+}
+
+.create_acc {
+    margin-left: -5%;
+}
+.explore_varieties {
+    margin-left: 10%;
+    margin-right: -5%;
+}
+
+.create_acc, .explore_varieties{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.create_acc_info {
+    text-align: left;
+}
+
+.bnt_reg {
+    color: orangered;
+
+    text-decoration: none;
+}
+
+.bnt_reg:hover {
+    text-decoration: underline;
+}
+
+.title_create_acc {
+    font-size: 25px;
+}
+
+.text_app_work {
+    color: #B9B9B9;
 }
