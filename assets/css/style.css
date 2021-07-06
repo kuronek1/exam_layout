@@ -10,7 +10,6 @@ body {
 }
 
 header {
-
     height: 100vh;
 }
 
@@ -19,7 +18,6 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    margin: 0 50px;
 }
 
 .foodapp {
@@ -62,7 +60,6 @@ header {
     border-radius: 30px;
     color: white;
     transition: 1s;
-
 }
 
 .playstore {
@@ -77,12 +74,10 @@ header {
 .playstore:hover {
     background: white;
     color: orangered;
-    transform: 1s;
 }
 
 .app_store:hover {
     background-color: orangered;
-    transform: 1s;
 }
 
 
@@ -153,7 +148,7 @@ margin-top: -250px;
     font-size: 25px;
 }
 
-.text_app_work {
+.text_app_work, .copywright_text {
     color: #B9B9B9;
 }
 
@@ -178,3 +173,26 @@ margin-top: -250px;
 .foodapp_footer_text {
 margin-top: 110px;
 }
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10%;
+}
+
+.copywright_text {
+    font-size: 12px;
+}
+
+.footer_link {
+    padding: 10px 10px 0;
+    margin: 0 10px;
+    transition: 1s;
+}
+.footer_link:hover {
+    border-radius: 50%;
+    background-color: orangered;
+}
+
