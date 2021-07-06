@@ -94,11 +94,15 @@ main {
 }
 
 .phones_images {
-
 margin-top: -250px;
 }
 
-.phones_images::after {
+.app_work_title {
+    margin: 0;
+    font-size: 25px;
+}
+
+.app_work_title::before {
     display: block;
     height: 2px;
 
@@ -118,9 +122,9 @@ margin-top: -250px;
 
 .create_acc {
     margin-left: -5%;
+    margin-right: 10%;
 }
 .explore_varieties {
-    margin-left: 10%;
     margin-right: -5%;
 }
 
