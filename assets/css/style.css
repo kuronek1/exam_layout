@@ -32,6 +32,7 @@ header {
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
+    flex-grow: 0.5;
 }
 
 .foodapp_text {
@@ -90,7 +91,7 @@ main {
 }
 
 .phones_images {
-margin-top: -250px;
+margin-top: -20%;
 }
 
 .app_work_title {
@@ -199,7 +200,7 @@ footer {
     }
     
     header {
-        height: 100vh;
+        height:min-content;
         margin: 0 5%;
     }
     
@@ -211,6 +212,7 @@ footer {
     }
     
     .foodapp {
+        height: min-content;
         flex-direction: column;
     
         text-align: center;
