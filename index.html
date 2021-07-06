@@ -51,14 +51,20 @@
 
         <main>
             <div class="phones_images">
-                <img src="./assets/images/group_phone.png" alt="phone_group" />
+                <picture>
+                    <source
+                    src="./assets/images/media_phone/Group_54.png"
+                    media="screen and (max-widht:600px)"
+                    >
+                <img class="group_54" src="./assets/images/group_phone.png" alt="phone_group" />
+            </picture>
             </div>
             <section class="app_work">
                 <h3 class="app_work_title">How the app works</h3>
 
                 <div class="create_acc">
                     <div class="create_acc_img">
-                        <img
+                        <img class="group_54 group_53" 
                             src="./assets/images/phone_first.png"
                             alt="Register form on phone"
                         />
@@ -90,7 +96,7 @@
                         </p>
                     </div>
                     <div class="create_acc_img">
-                        <img
+                        <img class="group_54 group_53" 
                             src="./assets/images/phone_second.png"
                             alt="Register form on phone"
                         />
@@ -107,16 +113,16 @@
                             experience now
                         </span>
                     </div>
-                    <div class="button_foodapp">
+                    <div class="button_foodapp btn_box_foot">
                         <button
                             onclick="window.location.href = 'https://play.google.com'"
-                            class="playstore"
+                            class="playstore btn_foot btn_foot_playstore "
                         >
                             Playstore
                         </button>
                         <button
                             onclick="window.location.href = 'https://www.apple.com/ua/app-store/'"
-                            class="app_store"
+                            class="app_store btn_foot btn_foot_app_store"
                         >
                             App Store
                         </button>

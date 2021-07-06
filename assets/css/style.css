@@ -84,8 +84,6 @@ header {
 
 
 
-
-
 main {
     text-align: center;
     position: relative;
@@ -154,7 +152,6 @@ margin-top: -250px;
     color: #B9B9B9;
 }
 
-
 .foodapp_footer {
     height: 100%;
     display: flex;
@@ -169,8 +166,6 @@ margin-top: -250px;
 .foodapp_footer * {
     margin: 20px;
 }
-
-
 
 .foodapp_footer_text {
 margin-top: 110px;
@@ -198,3 +193,140 @@ footer {
     background-color: orangered;
 }
 
+@media screen  and (max-width: 600px){
+    body {
+        font-size: 15px;
+    }
+    
+    header {
+        height: 100vh;
+        margin: 0 5%;
+    }
+    
+    .logonav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .foodapp {
+        flex-direction: column;
+    
+        text-align: center;
+        background-image: none;
+        color: black;
+    }
+    
+    .foodapp_text {
+        margin-top: 0px;
+    }
+
+
+    .foodapp_par {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .foodapp_download {
+        margin-bottom: 20px;
+    }
+
+    .button_foodapp {
+        z-index: 10;
+    }
+
+    .playstore, .app_store {
+        margin: 10px 20px;
+    }
+
+    .app_store {
+        background-color: transparent;
+        color: orangered;
+        border: 1px solid orangered;
+    }
+
+    .app_store:hover {
+        background-color: orangered;
+        color: white;
+    }
+
+
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .phones_images {
+        margin-top: -50px;
+        margin-left: -70px;
+    }
+    .group_54 {
+        width: 100%;
+    }
+    
+    .group_53 {
+        padding-left: 50px;
+    }
+
+    .app_work_title {
+        position: relative;
+        margin-bottom: 100px;
+        font-size: 25px;
+    }
+
+    .app_work_title::before {
+        top: 250px;
+        margin: -130px;
+    }
+
+    .create_acc, .explore_varieties{
+        flex-direction: column;
+    }
+
+    .create_acc {
+        margin: 0;
+        flex-direction: column-reverse;
+    }
+
+    .explore_varieties {
+        margin-right: -5%;
+    }
+
+    .create_acc_info {
+        text-align: center;
+    }
+    .main_download {
+        background-color: #252b42;
+    }
+
+    .foodapp_footer {
+        background-image: none;
+    }
+
+    .foodapp_footer_text {
+    margin-top: 0;
+    }
+
+    .btn_box_foot {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .btn_foot {
+        font-size: 12px;
+    }
+    .btn_foot_playstore {
+        padding: 5px;
+    }
+
+    .btn_foot_app_store {
+        padding: 15px;
+    }
+
+    footer {
+        flex-direction: column;
+        margin: 0;
+    }
+}
