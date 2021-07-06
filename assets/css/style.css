@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -33,7 +34,7 @@ header {
     color: white;
 }
 
-.label {
+.foodapp_text {
     margin-top: 50px;
 }
 
@@ -41,7 +42,7 @@ header {
     font-size: 25px;
 }
 
-.foodapp_text {
+.foodapp_par {
     font-size: 50px;
     font-weight: bold;
 }
@@ -154,4 +155,26 @@ margin-top: -250px;
 
 .text_app_work {
     color: #B9B9B9;
+}
+
+
+.foodapp_footer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    background-image: url(../images/bg_footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+.foodapp_footer * {
+    margin: 20px;
+}
+
+
+
+.foodapp_footer_text {
+margin-top: 110px;
 }
