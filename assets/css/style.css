@@ -11,6 +11,7 @@ body {
     padding: 0;
 }
 
+
 header {
     height: 100vh;
 }
@@ -22,6 +23,11 @@ header {
 
     margin: 0 5%;
 }
+
+.navigation {
+    cursor: pointer;
+}
+
 .burger_btn {
     display: block;
     background-color: #fff;
