@@ -20,7 +20,36 @@ header {
 
     margin: 0 5%;
 }
+.burger_btn {
+    display: block;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+}
 
+.bg_menu_span,
+.bg_menu_span::after,
+.bg_menu_span::before  {
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    width: 20px;
+    height: 2px;
+    background-color: #222;
+}
+
+.bg_menu_span::after,
+.bg_menu_span::before {
+    content: "";
+}
+
+.bg_menu_span::before {
+    transform: translateY(-5px);
+}
+
+.bg_menu_span::after {
+    transform: translateY(5px);
+}
 
 .foodapp {
     height: 100vh;
