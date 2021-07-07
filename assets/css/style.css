@@ -238,16 +238,27 @@ footer {
     background-color: orangered;
 }
 
+@media screen  and (max-width: 1600px){
+
+    .phones_images {
+        margin-top: -35%;
+    }
+}
 
 
 @media screen  and (max-width: 1400px){
 
     .phones_images {
-        margin-top: -20%;
+        margin-top: -40%;
     }
 }
 
+@media screen  and (max-width: 1200px){
 
+    .phones_images {
+        margin-top: -55%;
+    }
+}
 
 @media screen  and (max-width: 600px){
     body {
