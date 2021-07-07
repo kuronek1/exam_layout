@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
 
 * {
     box-sizing: border-box;
@@ -25,6 +25,7 @@ header {
 }
 
 .navigation {
+
     cursor: pointer;
 }
 
@@ -98,7 +99,8 @@ header {
     padding: 15px 20px;
     border-radius: 30px;
     color: white;
-    transition: 1s;
+    transition: 0.4s;
+    cursor: pointer;
 }
 
 .playstore {
@@ -153,12 +155,8 @@ margin-top: -25%;
     margin: 0 10%;
 }
 
-.create_acc {
-    margin-left: -5%;
-    margin-right: 10%;
-}
 .explore_varieties {
-    margin-right: -5%;
+    padding-left: 100px;
 }
 
 .create_acc, .explore_varieties{
@@ -189,20 +187,25 @@ margin-top: -25%;
     color: #B9B9B9;
 }
 
+.foodapp_footer * {
+    margin: 20px;
+}
+
 .foodapp_footer {
-    height: 100%;
+    height: 60vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+
+    margin: 0;
 
     text-align: center;
     background-image: url(../images/bg_footer.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     color: white;
 }
-.foodapp_footer * {
-    margin: 20px;
-}
+
 
 .foodapp_footer_text {
 margin-top: 110px;
@@ -220,6 +223,10 @@ footer {
     font-size: 12px;
 }
 
+.copywright_text_media {
+    display: none;
+}
+
 .footer_link {
     padding: 10px 10px 0;
     margin: 0 10px;
@@ -229,6 +236,8 @@ footer {
     border-radius: 50%;
     background-color: orangered;
 }
+
+
 
 @media screen  and (max-width: 600px){
     body {
@@ -260,14 +269,17 @@ footer {
         margin-top: 0px;
     }
 
+    .label {
+        font-weight: 500;
+    }
 
     .foodapp_par {
         font-size: 25px;
-        font-weight: bold;
     }
 
     .foodapp_download {
         margin-bottom: 20px;
+        color: #B6B6B6;
     }
 
     .button_foodapp {
@@ -310,7 +322,7 @@ footer {
 
     .app_work_title {
         position: relative;
-        margin-bottom: 100px;
+        margin-bottom: 150px;
         font-size: 25px;
     }
 
@@ -349,11 +361,11 @@ footer {
 
     .btn_box_foot {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
     }
 
     .btn_foot {
-        font-size: 12px;
+        font-size: 15px;
     }
     .btn_foot_playstore {
         padding: 5px;
@@ -365,6 +377,18 @@ footer {
 
     footer {
         flex-direction: column;
-        margin: 0;
+        margin: 50px 0 0;
+    }
+
+    .logonav_footer {
+        display: none;
+    }
+
+    .copywright_text {
+        display: none;
+    }
+
+    .copywright_text_media {
+        display: block;
     }
 }
