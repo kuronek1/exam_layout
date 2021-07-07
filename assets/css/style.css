@@ -25,6 +25,9 @@ header {
 }
 
 .navigation {
+    position: relative;
+    width: 20px;
+    height: 30px;
 
     cursor: pointer;
 }
@@ -33,7 +36,6 @@ header {
     display: block;
     background-color: #fff;
     border-radius: 50%;
-    position: relative;
 }
 
 .bg_menu_span,
@@ -129,7 +131,7 @@ main {
 }
 
 .phones_images {
-margin-top: -25%;
+margin-top: -30%;
 }
 
 .app_work_title {
@@ -157,6 +159,7 @@ margin-top: -25%;
 
 .explore_varieties {
     padding-left: 100px;
+
 }
 
 .create_acc, .explore_varieties{
@@ -165,13 +168,17 @@ margin-top: -25%;
     align-items: center;
 }
 
+.create_acc {
+    margin-left: 100px;
+}
+
 .create_acc_info {
+    padding-right: 50px;
     text-align: left;
 }
 
 .bnt_reg {
     color: orangered;
-
     text-decoration: none;
 }
 
@@ -206,12 +213,6 @@ margin-top: -25%;
     color: white;
 }
 
-
-.foodapp_footer_text {
-margin-top: 110px;
-}
-
-
 footer {
     display: flex;
     justify-content: space-around;
@@ -237,6 +238,14 @@ footer {
     background-color: orangered;
 }
 
+
+
+@media screen  and (max-width: 1400px){
+
+    .phones_images {
+        margin-top: -20%;
+    }
+}
 
 
 @media screen  and (max-width: 600px){
