@@ -249,14 +249,14 @@ footer {
 @media screen  and (max-width: 1400px){
 
     .phones_images {
-        margin-top: -40%;
+        margin-top: -19%;
     }
 }
 
 @media screen  and (max-width: 1200px){
 
     .phones_images {
-        margin-top: -55%;
+        margin-top: -23%;
     }
 }
 
@@ -335,6 +335,8 @@ footer {
     }
     .group_54 {
         width: 100%;
+        padding: 0;
+        margin: 0;
     }
     
     .group_53 {
@@ -354,6 +356,7 @@ footer {
 
     .create_acc, .explore_varieties{
         flex-direction: column;
+        padding: 0;
     }
 
     .create_acc {
@@ -361,11 +364,8 @@ footer {
         flex-direction: column-reverse;
     }
 
-    .explore_varieties {
-        margin-right: -5%;
-    }
-
     .create_acc_info {
+        padding: 0;
         text-align: center;
     }
     .main_download {
